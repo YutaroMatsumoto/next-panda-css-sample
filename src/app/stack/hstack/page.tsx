@@ -1,3 +1,4 @@
+import { HStack } from "@/styled-system/jsx";
 import { hstack } from "@/styled-system/patterns";
 
 /**
@@ -13,6 +14,13 @@ export default function HstackPage() {
         <div>Second</div>
         <div>Third</div>
       </div>
+
+      {/* jsx */}
+      <HStack gap={"6"}>
+        <div>First</div>
+        <div>Second</div>
+        <div>Third</div>
+      </HStack>
     </main>
   );
 }
