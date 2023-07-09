@@ -3,7 +3,7 @@ import { hstack } from "@/styled-system/patterns";
 /**
  * stackパターンのラッパー
  * directionプロパティが固定。
- *
+ * flex-direction: row;
  */
 export default function HstackPage() {
   return (
